@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Khaddi Pakistan Official Online Store - Khaadi PK</title>
+        <link rel="shortcut icon" href="https://pk.khaadi.com/media/logo/stores/24/logo_1.png">
+        <link rel="stylesheet" href="index_css.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+            $(document).ready(function() {
+				$("#col1").mouseover(function(){
+					$("#panel").slideToggle();
+				});
+                $("#panel").mouseleave(function(){
+					$("#panel").slideUp();
+				});
+            });
+        </script> 
+    </head>
+    <body>
+        <div class="header_home">
+            <img src="khaadi_logo_1.png" alt="Logo" class="img_home_header">
+            <div class="header_home_href">
+                <a href="home.html">Home</a>
+                <a id="col1" href="collections.html">Collections</a>
+                <a href="registration.php">Account</a>
+                <a href="cart.php">Cart</a>
+            </div>
+        </div>
+		<div id="panel">
+            <ul class="navbar-col">
+            <li class = "nav-bar-box"><a href="PretColl.php">Pret Collection</a></li>
+            <li class = "nav-bar-box"><a href="USColl.php">Unstitched Collection</a></li>
+            <li class = "nav-bar-box"><a href="Khaas.php">Khaas Collection</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        
+        <br><br><br>
+        <div class="collections" id="getDiv">
+            <table class="table_setting">
+                <tr>
+                    <th colspan="3">Khaadi Collections Vol. 1 Promo</th>
+                </tr>
+                <tr><td colspan="3"></td></tr>
+                <tr><td colspan="3"></td></tr>
+                <tr>
+                    <td colspan="3">
+                        <video controls autoplay width="900px" height="300px">
+                            <source src="Khaadi Lawn Vol 1.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+                <tr><td colspan="3"></td></tr>
+                <tr><td colspan="3"></td></tr>
+                <tr>
+                    <th colspan="3">PRET Collection</th>
+                </tr>
+                <tr>
+                    <td><img src="collection1.jpg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection2.jpg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection3.jpg" alt="PRET" width="300px" height="300px"></td>
+                </tr>
+                <tr>
+                    <th colspan="3">UNSTICHED Collection</th>
+                </tr>
+                <tr>
+                    <td><img src="collection4.jpg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection5.jpg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection6.jpg" alt="PRET" width="300px" height="300px"></td>
+                </tr>
+                <tr>
+                    <th colspan="3">KHAAAS Collection</th>
+                </tr>
+                <tr>
+                    <td><img src="collection7.jpg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection8.jpeg" alt="PRET" width="300px" height="300px"></td>
+                    <td><img src="collection9.jpg" alt="PRET" width="300px" height="300px"></td>
+                </tr>
+            </table>    
+    
+        </div>
+        <div class="footer">
+            <p>Copyright &copy; 2020 Abdullah Jan Khan and Aleena Naveed</p>
+        </div>
+    </body>
+</html>

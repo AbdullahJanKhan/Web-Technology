@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Khaddi Pakistan Official Online Store - Khaadi PK</title>
+        <link rel="shortcut icon" href="https://pk.khaadi.com/media/logo/stores/24/logo_1.png">
+        <link rel="stylesheet" href="index_css.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+				$("#col1").mouseover(function(){
+					$("#panel").slideToggle();
+				});
+                $("#panel").mouseleave(function(){
+					$("#panel").slideUp();
+				});
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header_home">
+            <img src="khaadi_logo_1.png" alt="Logo" class="img_home_header">
+            <div class="header_home_href">
+                <a href="home.html">Home</a>
+                <a id="col1" href="collections.html">Collections</a>
+                <a href="registration.php">Account</a>
+                <a href="cart.php">Cart</a>
+            </div>
+        </div>
+        <div id="panel">
+		<ul class="navbar-col">
+		<li class = "nav-bar-box"><a href="PretColl.php">Pret Collection</a></li>
+		<li class = "nav-bar-box"><a href="USColl.php">Unstitched Collection</a></li>
+		<li class = "nav-bar-box"><a href="Khaas.php">Khaas Collection</a></li>
+		</ul>
+		</div>
+  
+        <div class="auto_div">
+            <img src="https://pk.khaadi.com/media/wysiwyg/khaadi-lawn-01-03-2020_1.jpg" width=1300px>
+        </div>
+        <div class="women_home">
+            <br>
+            WOMAN
+            <br>
+        </div>
+        <div class="collection_type" id="shop" >
+            <div class="collection_type_inner">
+                <img src="pret.jpg" alt="PRET Image" id="image_collection">
+                <p id="para_collection_title">PRET</p>
+                <p>Revel in joy this season with our exquisitely <br> pret collection, featuring a rich <br>
+                color palette.</p>
+                <p id="shop_now_home"><a href="PretColl.php">SHOP NOW</a></p>
+            </div>
+            <div class="collection_type_inner">
+                <p id="para_collection_title">UNSTICHED</p>
+                <p>Enter a world of lively colours, delicate motifs,<br> 
+                    bold prints and embrace joy with Khaadi’s <br> latest winter unstitched collection.</p>
+                <p id="shop_now_home"><a href="USColl.php">SHOP NOW</a></p>
+                <br><br>
+                <img src="unstiched.jpg" alt="unstiched Image" id="image_collection">
+            </div>
+            <div class="collection_type_inner">
+                <img src="khaas.jpg" alt="Khaas Image" id="image_collection">
+                <p id="para_collection_title">KHAAS</p>
+                <p>Revel in joy this season with our exquisitely <br> pret collection, featuring a rich <br>
+                color palette.</p>
+                <p id="shop_now_home"><a href="Khaas.php">SHOP NOW</a></p>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p>Copyright &copy; 2020 Abdullah Jan Khan and Aleena Naveed</p>
+        </div>
+    </body>
+</html>

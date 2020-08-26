@@ -1,0 +1,330 @@
+/*All Classes and IDs above are for Index.html*/
+body{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+button{
+    width: 200px;
+    height: auto;
+}
+
+#panel{
+    /* margin-top: 55px; */
+    padding: 50px;
+    overflow: hidden;
+	margin-right: 20%;
+	margin-left: 22%;
+    display: none;
+    position: fixed;
+	text-align: justify;
+	background-color: whitesmoke;
+}
+
+.body_index{
+    background-image: url('https://www.khaadi.com/media/countrydd_kh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    background: #555;
+    color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    text-align-last: center;
+}
+.form{
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+    float: right;
+    text-align-last: center;
+}
+
+.image_sec{
+    width: 200px;
+    height: 200px;
+    margin-right: 300px;
+    margin-top: 50px;
+    float: right;
+}
+
+#selection_index{
+    border-radius: 5px;
+    width: 250px; 
+    height: 50px; 
+    font-size: 18px;
+}
+
+#submit_index{
+    color: white;
+    background-color: black;
+    width: 125px;
+    height: 30px;
+}
+
+#submit_index:hover{
+    background-color: white;
+    color: black;
+}
+
+/*All IDs and Classes of home.html*/
+
+.header_home{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid grey;
+}
+
+.header_home a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+.header_home a:visited{
+    color: rgb(83, 81, 81);
+}
+
+.img_home_header{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    position: relative;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header_home_href{
+    padding: 8px;
+    margin-left: 200px;
+    padding-left: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auto_div{
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.auto_div-c{
+    /* width: 100%;
+    height: auto; */
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-top: 55px;
+}
+
+.footer{
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.women_home{
+    width: 100%;
+    padding-top: 5px;
+    height: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.collection_type{
+    /* margin: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    display: flex
+}
+
+#para_collection_title{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#shop_now_home{
+    width: inherit;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#image_collection{
+    width: 376px;
+    height: 564px;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 50px 300px;
+}
+
+.login-left{
+    background-color: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+
+.login-right{
+    background: rgba(255,255,255,0.5);
+    padding: 30px;
+}
+
+.form-control{
+    background-color: transparent !important;
+}
+
+.collection_type_inner{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btns-div-home{
+    width: 100%;
+    height: auto;
+}
+
+.table-div-btn{
+    width: 100%;
+    /* margin-right: 30%; */
+    margin-left: 20%;
+}
+
+/* Below are IDs and Classes for colletions.html */
+
+.table_setting{
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-left: 225px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+img.collections{
+    width:"300px"; 
+    height:"300px";
+    transform: scale(1.1);
+}
+
+/* IDs and Classes for Reistration Form */
+
+p.heading{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.name{
+	width: 45%;
+    height: 25px;
+}
+
+.others{
+	width: 80%;
+    height: 20px;
+}
+
+.Subheading{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+}
+
+/* IDs and classes for Form Data Page */
+
+.table_dummy_data{
+    width: auto;
+    height: auto;
+    padding-top: 150px;
+    padding-left: 350px;
+}
+
+#table_dummy_data_setting{
+    border: 5;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.data{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 18px;
+}
+
+.navbar-col{
+    display: flex;
+}
+
+.nav-bar-box{
+    margin-right: 15%;
+}
+
+input{
+    background-color: transparent;
+    color: #000000;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 8.3%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    /* padding-left: 10%; */
+}
+
+.form_setting{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 33%;
+    height: inherit;
+    /* background-color: rgb(230,230,250,0.2); */
+    /* margin-left: 20%; */
+}
+
+.cart_table{
+    width: 70%;
+    border: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.h2_cart{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
